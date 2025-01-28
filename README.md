@@ -5,13 +5,13 @@ The Time Traveling Adventures of Ooka Ooka
 Isaac Cope, Joseph Robles, Joseph Gaunt, Mason Allen, Allyn Crane
 
 ## Software Description
-A simple (text-based?) game in C++
+A simple text-based murder mystery game in C++
 
 ## Architecture
-C++
-Visual Studio (Windows)
-Xcode (MacOS)
-Raylib C++ Library
+* C++
+* Visual Studio (Windows)
+* Xcode (MacOS)
+* Raylib C++ Library
 ## Software Features
 
 
