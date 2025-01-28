@@ -15,9 +15,9 @@ A simple text-based murder mystery game in C++
 ## Software Features
 
 
-* [ ] First feature here
-* [ ] Second feature here
-* [ ] Keep going ....
+* [ ] ASCCI and full picture art
+* [ ] Keyboard control with discussion of controller support 
+* [ ] Text-based Control
 
 ## Team Communication
 We have a Discord Server we communicated through
