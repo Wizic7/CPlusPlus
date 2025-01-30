@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\justc\\OneDrive\\Documents\\BYU-Idaho\\Winter 24-25\\CSE-310\\CPlusPlus\\aoo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2B6311E2-054B-466F-B36F-ED209CF65823}|aoo\\aoo.vcxproj|C:\\Users\\justc\\OneDrive\\Documents\\BYU-Idaho\\Winter 24-25\\CSE-310\\CPlusPlus\\aoo\\aoo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2B6311E2-054B-466F-B36F-ED209CF65823}|aoo\\aoo.vcxproj|solutionrelative:aoo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\justc\\OneDrive\\Documents\\BYU-Idaho\\Winter 24-25\\CSE-310\\CPlusPlus\\aoo\\aoo\\main.cpp",
-              "RelativeDocumentMoniker": "aoo\\main.cpp",
-              "ToolTip": "C:\\Users\\justc\\OneDrive\\Documents\\BYU-Idaho\\Winter 24-25\\CSE-310\\CPlusPlus\\aoo\\aoo\\main.cpp",
-              "RelativeToolTip": "aoo\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T20:27:36.676Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
