@@ -14,13 +14,13 @@ public:
     Player() {}
 
 
-    void initializeJournal()
+    /*void initializeJournal()
     {
-        for (int i = 0; i < journalSize; i++)
+        for (int i = 0; i < ; i++)
         {
             clueJournal[i] = clueJournal(); // TODO this will need to be updated with specific parameters later on.
         }
-    }
+    }*/
 };
 
 
