@@ -1,6 +1,6 @@
 // * For questions on this class, see Allyn
 #include <string>
-#include "Clue.C++"
+#include "Clue.cpp"
 
 class Player {
 // TODO player stats needed
@@ -12,15 +12,15 @@ public:
     // TODO the size of this array will need to be adjusted later. It is currently set to 3, but it we will need expanded as we decide the specifics of the game.
 
     Player() {}
-/*
-private:
+
+
     void initializeJournal()
     {
         for (int i = 0; i < journalSize; i++)
         {
             clueJournal[i] = clueJournal(); // TODO this will need to be updated with specific parameters later on.
         }
-    }*/
+    }
 };
 
 
