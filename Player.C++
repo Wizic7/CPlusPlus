@@ -1,19 +1,18 @@
 // * For questions on this class, see Allyn
 #include <string>
+#include "Clue.C++"
 
 class Player {
 // TODO player stats needed
     public:
     
-    //! there may be an error on this string declaration, but I cannot find it.
     std::string playerName = "Ooka Ooka";
     // ? The planning documentation says we want to implement a player inventory, but it is unclear what we are going to be putting in the inventory. We need to rediscuss this so I know how to implement it.
 
     // TODO the size of this array will need to be adjusted later. It is currently set to 3, but it we will need expanded as we decide the specifics of the game.
     int journalSize = 3;
     Clue* clueJournal = new Clue[journalSize];
-    for (int i = 0; journalSize < journalSize; i++)
-    {
+    for (int i = 0; i < journalSize; i++) {
         clueJournal[i] = clueJournal();//TODO this will need to be updated with specific parameters later on.
     }
 
