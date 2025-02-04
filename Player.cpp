@@ -11,13 +11,19 @@ class Player {
 
     // TODO the size of this array will need to be adjusted later. It is currently set to 3, but it we will need expanded as we decide the specifics of the game.
     int journalSize = 3;
-    Clue* clueJournal = new Clue[journalSize];
-    for (int i = 0; i < journalSize; i++) {
-        clueJournal[i] = clueJournal();//TODO this will need to be updated with specific parameters later on.
-    }
+    Clue *clueJournal = new Clue[journalSize];
 
     Player() {}
 };
+
+private void initialize()
+{
+    
+    for (int i = 0; i < journalSize; i++)
+    {
+        clueJournal[i] = clueJournal(); // TODO this will need to be updated with specific parameters later on.
+    }
+}
     // Sources:
     // Google's AI was used to refamiliarzie myself with the basic syntax for class declaration, constructers and member functions in C++.
     // https://www.geeksforgeeks.org/how-to-initialize-array-of-objects-with-parameterized-constructors-in-c/
