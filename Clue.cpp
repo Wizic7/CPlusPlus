@@ -10,7 +10,7 @@ Description
 */
 
 class Clue {
-    public:
+public:
     std::string clueDescription = "Useless clue. See Allyn if this appears.";
     Clue() {}
 
