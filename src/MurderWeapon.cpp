@@ -5,13 +5,15 @@
 #include <ctime>
 
 /* 
-HOW TO USE
+********************************* HOW TO USE: *******************************************************
+
 When created, call setupWeapon(). ng tasks.json and launch.json files in your projectThis will create a random weapon with a random description, name, and location. 
 
 call returnWeaponData() to return a 3 value CSV string. "murderWeaponName, murderWeaponLocation, murderWeaponDescription" is the format. 
 
 call returnmurderWeaponName(), returnMurderWeaponDescription() or returnMurderWeaponLocation() for the individual values. 
 
+*****************************************************************************************************
 */
 
 class MurderWeapon
