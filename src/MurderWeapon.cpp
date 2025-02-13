@@ -5,9 +5,13 @@
 #include <ctime>
 
 /* 
-When created, call setupWeapon(). This will create a random weapon with a random description, name, and location. 
+HOW TO USE
+When created, call setupWeapon(). ng tasks.json and launch.json files in your projectThis will create a random weapon with a random description, name, and location. 
+
 call returnWeaponData() to return a 3 value CSV string. "murderWeaponName, murderWeaponLocation, murderWeaponDescription" is the format. 
+
 call returnmurderWeaponName(), returnMurderWeaponDescription() or returnMurderWeaponLocation() for the individual values. 
+
 */
 
 class MurderWeapon
@@ -19,7 +23,8 @@ protected:
         "SharpStick",
         "WhiteGlove",
         "WornRope",
-        "RottenFish"};
+        "RottenFish"
+    };
 
     const std::array<std::string, 5> potentialMurderWeaponDescriptions = {
         "This item was once used to swat flies, but one day it swatted more than just a bug.",
@@ -34,7 +39,8 @@ protected:
         "This weapon is in the Formal Dining Room which is a stately room with a long, mahogany dining table surrounded by high-backed chairs. The walls are lined with rich tapestries and portraits of ancestors. A grand fireplace adds warmth, while silver candelabras and fine china set the scene for exquisite dinners.",
         "This weapon is in the Music Room which is a refined space dedicated to musical pursuits, featuring a grand piano, a harp, and various string instruments. The room is decorated with plush carpets, velvet curtains, and ornate music stands. It's a place where guests can enjoy intimate concerts and recitals.",
         "This weapon is in the Conservatory which is a bright and airy room filled with exotic plants and flowers. Large glass windows and a glass ceiling allow natural light to flood the space. Wicker furniture and marble statues add to the charm, making it an ideal spot for afternoon tea and relaxation.",
-        "This weapon is in the Library which is a cozy and intellectual retreat with towering bookshelves filled with leather-bound volumes. The room features a large wooden desk, comfortable armchairs, and a roaring fireplace. Soft gas lamps provide a warm glow, creating a perfect environment for reading and contemplation."};
+        "This weapon is in the Library which is a cozy and intellectual retreat with towering bookshelves filled with leather-bound volumes. The room features a large wooden desk, comfortable armchairs, and a roaring fireplace. Soft gas lamps provide a warm glow, creating a perfect environment for reading and contemplation."
+    };
 
 public:
     // Attributes
@@ -53,7 +59,7 @@ public:
         murderWeaponName = potentialMurderWeaponName[std::rand() % 5];
         murderWeaponLocation = potentialMurderWeaponLocations[std::rand() % 5];
         murderWeaponDescription = potentialMurderWeaponDescriptions[std::rand() % 5];
-    }
+    };
 
 public:
     std::string returnWeaponData()
