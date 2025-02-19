@@ -33,8 +33,6 @@
 
 
 
-\.vs
-/aoo/aoo/Debug/
-/aoo/aoo/x64/
-\aoo\aoo\Debug\
-\aoo\aoo\x64\
+.vscode/
+.vs/
+
