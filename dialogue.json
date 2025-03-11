@@ -1,29 +1,37 @@
 {
-    "Dad": {
-        "Name": "Harold House",
-        "Personality": "Proud Father, Served in The War",
-        "Into": "Hello Again Uncle! It is so good to see you! I thought that you were in Africa! Welcome Back!",
-        "It Was The Homes": "It really is a shame about the bear. It was almost certainly the Homes family that is responsible. I really am famished but there is no way we could possibly eat with this tragedy in our house. Have you talked to Harriet? She would be so glad to see you!",
-        "You Are Right": "What! It was The Butler???",
-        "You Are Wrong": "That Idea is absurd!",
-        "General Dialogue": "My father built this house. We are a proud family."
+    "dialogue": {
+        "Dad": {
+            "Name": "Harold House",
+            "Personality": "Proud Father, Served in The War",
+            "Into": "Hello Again Uncle! It is so good to see you! I thought that you were in Africa! Welcome Back!",
+            "It Was The Homes": "It really is a shame about the bear. It was almost certainly the Homes family that is responsible. I really am famished but there is no way we could possibly eat with this tragedy in our house. Have you talked to Harriet? She would be so glad to see you!",
+            "You Are Right": "What! It was The Butler???",
+            "You Are Wrong": "That Idea is absurd!",
+            "General Dialogue": "My father built this house. We are a proud family."
+        },
+        "Mom": {
+            "Name": "Harriet House",
+            "Personality": "Mrs. House is more conservative than most of the other House family. She married into it but hates the Home family as much as the rest of them and is proud to be a House. She is over-dramatic.",
+            "Intro": "Oh, Uncle! It's been ages! I can't believe you're finally here. The Homes family has been nothing but trouble since you left.",
+            "It Was The Home": "Of course, it was the Homes family! They've always been envious of our success. This tragedy is just another one of their schemes.",
+            "You Are Right": "I knew it! The Butler has always been suspicious. We should have never trusted him.",
+            "You Are Wrong": "How could you even suggest that? The Homes are behind this, I am certain!",
+            "General Dialogue": "This house has stood for generations, and I will not let the Homes tarnish our legacy. We must stand strong together."
+        },
+        "Son": {
+            "Name": "Henry House",
+            "Personality": "A stuck-up son of the rich Mr. and Mrs. House. He thinks he is the center of the universe. When it comes to delusional, he is the standard.",
+            "Into": "Hello Uncle! You didn't happen to find a better shot than me on your travels, did you? I am only kidding. Of course I am the best that there is!",
+            "It Was The Home": "It is a shame that I didn't catch the Home gang in the act. They wouldn't have made it out alive.",
+            "You Are Right": "Well of course it was the dumb Butler. I knew that the whole time. The help cannot be trusted.",
+            "You Are Wrong": "I think that we all know that this could not have possibly been them.",
+            "General Dialogue": "There has never been a House as strong, dashing, or capable as me, let alone a Homes."
+        }
     },
-    "Mom": {
-        "Name": "Harriet House",
-        "Personality": "Mrs. House is more conservative than most of the other House family. She married into it but hates the Home family as much as the rest of them and is proud to be a House. She is over-dramatic.",
-        "Intro": "Oh, Uncle! It's been ages! I can't believe you're finally here. The Homes family has been nothing but trouble since you left.",
-        "It Was The Home": "Of course, it was the Homes family! They've always been envious of our success. This tragedy is just another one of their schemes.",
-        "You Are Right": "I knew it! The Butler has always been suspicious. We should have never trusted him.",
-        "You Are Wrong": "How could you even suggest that? The Homes are behind this, I am certain!",
-        "General Dialogue": "This house has stood for generations, and I will not let the Homes tarnish our legacy. We must stand strong together."
-    },
-    "Son": {
-        "Name": "Henry House",
-        "Personality": "A stuck-up son of the rich Mr. and Mrs. House. He thinks he is the center of the universe. When it comes to delusional, he is the standard.",
-        "Into": "Hello Uncle! You didn't happen to find a better shot than me on your travels, did you? I am only kidding. Of course I am the best that there is!",
-        "It Was The Home": "It is a shame that I didn't catch the Home gang in the act. They wouldn't have made it out alive.",
-        "You Are Right": "Well of course it was the dumb Butler. I knew that the whole time. The help cannot be trusted.",
-        "You Are Wrong": "I think that we all know that this could not have possibly been them.",
-        "General Dialogue": "There has never been a House as strong, dashing, or capable as me, let alone a Homes."
+    "images": {
+        "Dad": "dad.png",
+        "Mom": "mom.png",
+        "Son": "son.png"
     }
+}
 }
