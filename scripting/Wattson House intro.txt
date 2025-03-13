@@ -1,21 +1,32 @@
 About:
     Born into privilege but cast aside by his own kin, Wattson became the black sheep of the family, 
     an outcast whose ideas and pursuits clashed with the rigid expectations of Victorian propriety. 
-    Some say he dabbles in unnatural sciences; others whisper of his fascination with the occult. 
+    Some say he dabbles in unnatural sciences(taxidermy); others whisper of his fascination with the occult. 
     His defiance of tradition—whether through his intellect, his experiments, 
     or his sheer disregard for the family's wishes—has left him a pariah at best and a danger at worst.
 
 Intro:
+    At the early age of 0, Wattson was considered a nobody. Thanks to his Aunt Prue who wanted power, he got set aside for his no good Aunt
+    He may want revenge on his Aunt for making his whole life become the worst version it could ever be.
+    This House isn't feeling like a House, it's feeling more like a Home.
 
 
 "It was the Homes": 
-
+    "Oh..the Homes did it...I'm not sure their motive, but who knows why they wanted to do this
 
 
 You are right:
-
+    "Congratulations to you good sir, you caught the right man"
+    "Ooga Ooga"
+    "Yes, I'm now going after what is mine, my Aunt's life!"
 
 You are wrong:
+    "Mister, How could you guess wrong, I shall expell you to the dungeon!"
+    "OOOOOOGA OOOOOOGA"
+    "Well you wronged me, So I'm now going afte what is mine, my Aunt's life!"
 
 
 General Dialogue:
+    "Well I think that is quite magnifi..."
+    "My dear brother Wattson, please refrain from opening your hideous mouth. I don't believe anybody in this room inquired your opinion"
+    "I...I...alright fine"
