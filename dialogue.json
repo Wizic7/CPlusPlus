@@ -3,7 +3,7 @@
         "Dad": {
             "Name": "Harold House",
             "Personality": "Proud Father, Served in The War",
-            "Into": "Hello Again Uncle! It is so good to see you! I thought that you were in Africa! Welcome Back!",
+            "Intro": "Hello Again Uncle! It is so good to see you! I thought that you were in Africa! Welcome Back!",
             "It Was The Homes": "It really is a shame about the bear. It was almost certainly the Homes family that is responsible. I really am famished but there is no way we could possibly eat with this tragedy in our house. Have you talked to Harriet? She would be so glad to see you!",
             "You Are Right": "What! It was The Butler???",
             "You Are Wrong": "That Idea is absurd!",
@@ -21,7 +21,7 @@
         "Son": {
             "Name": "Henry House",
             "Personality": "A stuck-up son of the rich Mr. and Mrs. House. He thinks he is the center of the universe. When it comes to delusional, he is the standard.",
-            "Into": "Hello Uncle! You didn't happen to find a better shot than me on your travels, did you? I am only kidding. Of course I am the best that there is!",
+            "Intro": "Hello Uncle! You didn't happen to find a better shot than me on your travels, did you? I am only kidding. Of course I am the best that there is!",
             "It Was The Home": "It is a shame that I didn't catch the Home gang in the act. They wouldn't have made it out alive.",
             "You Are Right": "Well of course it was the dumb Butler. I knew that the whole time. The help cannot be trusted.",
             "You Are Wrong": "I think that we all know that this could not have possibly been them.",
@@ -30,7 +30,7 @@
         "Daughter": {
             "Name": "Henrietta House",
             "Personality": "The bratty younger sister of Henry. Spoiled beyond belief, and dramatic as you can possibly believe.",
-            "Into": "Oh Uncle, you must solve this mystery, you must! I want to eat now now now!",
+            "Intro": "Oh Uncle, you must solve this mystery, you must! I want to eat now now now!",
             "It Was The Home": "It was probably those dumb Homes. They always ruin my day! I'm going to waste away from hunger and its all their fault!",
             "You Are Right": "I told you that he wasn't handsome enough to be my butler, mother! I told you! I told you!",
             "You Are Wrong": "You're wrong! Ugh! Can we get a new Uncle, father? This one is a failure.",
@@ -39,11 +39,32 @@
         "Grandma": {
             "Name": "Granny House",
             "Personality": "Harold's Mother, a proud old lady who is a bit stuck in the past. She's the only one who remembers what started the feud with the Homes, but she won't tell anybody the story. (It's too much for them to handle.) Her late husband was a renouned doctor.",
-            "Into": " I'm glad you could make it to the dinner after all, dear. Welcome back to our house, sweet house!",
+            "Intro": " I'm glad you could make it to the dinner after all, dear. Welcome back to our house, sweet house!",
             "It Was The Home": "There's only one explanation for this... we live in a house, and not a home, for a reason!",
             "You Are Right": "The Butler! Ohhh, the Homes will pay for setting him up to this!",
             "You Are Wrong": "Honey, I can't see a foot in front of me, and even i know that you're wrong. Have you betrayed our family for those awful Homes?!",
             "General Dialogue": "No, dear, you're still not ready to hear what those Homes did to our family... It's simply too dreadful to speak of."
+        },
+        "Love_Intrest":{
+            "Name": "Aunt Prudence",
+            "Personality": "Prudence is hilariously ironic for an aunt who enjoys her liquor a little too much, and Clutterbuck is just the right mix of bumbling and old-timey charm. Aunt Prue is the type to insist she’s “only had a sip” while dramatically knocking over a decanter, telling outrageous (and likely exaggerated) stories of her youth, and swearing she once danced with Prince Albert—though no one believes her.",
+            "Intro":"Aunt Prudence was considered the black sheep of the family, until Harriet and Harrold had Wattson. Her drinking had made herself quiet very hated and she still get's in a drunken rage whenever the estate is mentioned and how it should have been hers. Maybe, just maybe she wants revenge",
+            "It Was The Home":"I tolllllllld you it was those dah dah hommmes.........",
+            "It Was The Home Response": "Hey Prudence, is your head on straight?",
+            "It Was The Home Following Response": "YEah you are..I mean... I am *hic* *hic*",
+            "You Are Right": "Oh my goodness you hot stuff, I can't believe [CHARACTER] did it and only you could solve it",
+            "You Are Right Response": "Ooga Ooga",
+            "You Are Right Following Response": "Yes I will marry you *hic* :D",
+            "You Are Wrong Mad": "I CAN'T BELIEVE YOU LIED!!! YOU....YOU SICK MAN!!",
+            "You Are Wrong Mad Response": "Ooga Ooga",
+            "You Are Wrong Mad Following Response": "I'm done! I'm leaving you and sending you back to your world (She knew all along and played it off)",
+            "You Are Wrong Happy": "Well *hic*, not everyone is right, but I want us to kindle OUR fire",
+            "You Are Wrong Happy Response": "Ooga Ooga",
+            "You Are Wrong Happy Following Response": "Yes, take me away darling and make me your queen!",
+            "General Dialogue": "*hic* Harriet, why do you get everything you wnat? I have to work SOOO hard to get ANYTHING around hereeeee",
+            "General Dialogue Response": "You're drinking my Brandy and I'm quite fed up with your behavior my dear Prudence",
+            "General Dialogue Following Response": "Don't call me 'mY dEaR pRuDeNcE' *hic*"
+
         }
     },
     "images": {
@@ -51,6 +72,7 @@
         "Mom": "mom.png",
         "Son": "son.png",
         "Daughter": "daughter.png",
-        "Grandma": "grandma.png"
+        "Grandma": "grandma.png",
+        "Love Interest": "love.png"
     }
 }
