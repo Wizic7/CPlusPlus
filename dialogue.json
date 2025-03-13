@@ -26,12 +26,31 @@
             "You Are Right": "Well of course it was the dumb Butler. I knew that the whole time. The help cannot be trusted.",
             "You Are Wrong": "I think that we all know that this could not have possibly been them.",
             "General Dialogue": "There has never been a House as strong, dashing, or capable as me, let alone a Homes."
+        },
+        "Daughter": {
+            "Name": "Henrietta House",
+            "Personality": "The bratty younger sister of Henry. Spoiled beyond belief, and dramatic as you can possibly believe.",
+            "Into": "Oh Uncle, you must solve this mystery, you must! I want to eat now now now!",
+            "It Was The Home": "It was probably those dumb Homes. They always ruin my day! I'm going to waste away from hunger and its all their fault!",
+            "You Are Right": "I told you that he wasn't handsome enough to be my butler, mother! I told you! I told you!",
+            "You Are Wrong": "You're wrong! Ugh! Can we get a new Uncle, father? This one is a failure.",
+            "General Dialogue": "First I have to wait for the food to cook, and now I have to wait for this dumb mystery! It's so unfair!"
+        },
+        "Grandma": {
+            "Name": "Granny House",
+            "Personality": "Harold's Mother, a proud old lady who is a bit stuck in the past. She's the only one who remembers what started the feud with the Homes, but she won't tell anybody the story. (It's too much for them to handle.) Her late husband was a renouned doctor.",
+            "Into": " I'm glad you could make it to the dinner after all, dear. Welcome back to our house, sweet house!",
+            "It Was The Home": "There's only one explanation for this... we live in a house, and not a home, for a reason!",
+            "You Are Right": "The Butler! Ohhh, the Homes will pay for setting him up to this!",
+            "You Are Wrong": "Honey, I can't see a foot in front of me, and even i know that you're wrong. Have you betrayed our family for those awful Homes?!",
+            "General Dialogue": "No, dear, you're still not ready to hear what those Homes did to our family... It's simply too dreadful to speak of."
         }
     },
     "images": {
         "Dad": "dad.png",
         "Mom": "mom.png",
-        "Son": "son.png"
+        "Son": "son.png",
+        "Daughter": "daughter.png",
+        "Grandma": "grandma.png"
     }
-}
 }
