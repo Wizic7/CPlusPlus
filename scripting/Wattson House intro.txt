@@ -12,7 +12,7 @@ Intro:
 
 
 "It was the Homes": 
-    "Oh..the Homes did it...I'm not sure their motive, but who knows why they wanted to do this
+    "Oh..the Homes did it...I'm not sure their motive, but who knows why they wanted to do this"
 
 
 You are right:
@@ -23,7 +23,7 @@ You are right:
 You are wrong:
     "Mister, How could you guess wrong, I shall expell you to the dungeon!"
     "OOOOOOGA OOOOOOGA"
-    "Well you wronged me, So I'm now going afte what is mine, my Aunt's life!"
+    "Well you wronged me, So I'm now going after what is mine, my Aunt's life!"
 
 
 General Dialogue:
