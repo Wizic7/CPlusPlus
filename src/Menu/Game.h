@@ -1,15 +1,18 @@
 #pragma once
+#include "TextDisplay.h"
 #include "Menu.h"
 class Game
 {
 private:
-	typedef enum GameState { BASE = 0, DIALOUGE } GameState;
+	typedef enum GameState { MENU = 0, BASE, DIALOUGE } GameState;
 	int currentState = 0;
-	Menu dialogueMenu;
+	TextDisplay dialogueMenu;
+	Menu mainMenu;
 
 public:
 	void Update();
 	void Draw();
+	int GetState();
 	void AdvanceDialogue();
 };
 

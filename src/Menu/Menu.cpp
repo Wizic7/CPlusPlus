@@ -1,80 +1,51 @@
-#include "raylib.h"
 #include "Menu.h"
-#include "Gui.h"
-#include "eventTime.h"
-#include <string>
-#include <vector>
+#include "raylib.h"
 
 
-void Menu::setIsChoice(bool state)
+void Menu::Draw()
 {
-	isChoice = state;
-}
+	if (isLoaded)
+	{
+		int buttonCount = 1;
+		int spacing = GetScreenHeight() * .05;
+		int button_x = buttonWidth / 2;
+		int button_y = buttonHeight / 3;
 
-void Menu::setSelected(int option)
-{
-	selected = option;
-}
+		int x_pos = GetScreenWidth() / 2 - buttonWidth / 2;
+		int y_pos = GetScreenHeight() - spacing * buttonCount - buttonHeight * buttonCount;
+		DrawRectangle(x_pos, y_pos, buttonWidth, buttonHeight, GRAY);
+		DrawText("Settings", x_pos + (button_x - MeasureText("Settings", fontSize)/2), y_pos + button_y, fontSize, RED);
+		buttonCount++;
+		x_pos = GetScreenWidth() / 2 - buttonWidth / 2;
+		y_pos = GetScreenHeight() - spacing * buttonCount - buttonHeight * buttonCount;
+		DrawRectangle(x_pos, y_pos, buttonWidth, buttonHeight, GRAY);
+		DrawText("Load Game", x_pos + (button_x - MeasureText("Load Game", fontSize) / 2), y_pos + button_y, fontSize, RED);
+		buttonCount++;
+		x_pos = GetScreenWidth() / 2 - buttonWidth / 2;
+		y_pos = GetScreenHeight() - spacing * buttonCount - buttonHeight * buttonCount;
+		DrawRectangle(x_pos, y_pos, buttonWidth, buttonHeight, GRAY);
+		DrawText("New Game", x_pos + (button_x - MeasureText("New Game", fontSize) / 2), y_pos + button_y, fontSize, RED);
+		buttonCount++;
+	}
 
-void Menu::setOptions(std::vector<std::string> nextOptions)
-{
-	options = nextOptions;
-}
-
-void Menu::setDialouge(std::string nextDialouge)
-{
-	dialouge = nextDialouge;
 }
 
 void Menu::Update()
 {
-	if (updater.eventTriggered(1))
-	{
-		isBlink = !isBlink;
-	}
 
-	if (IsKeyPressed(KEY_UP) && selected != 0)
-	{
-		isBlink = false;
-		selected--;
-	}
-	if (IsKeyPressed(KEY_DOWN) && selected != options.size() - 1)
-	{
-		isBlink = false;
-		selected++;
-	}
 }
 
-void Menu::Draw()
+void Menu::LoadMenu()
 {
-	DrawRectangle(0, GetScreenHeight() - menuHeight, GetScreenWidth(), menuHeight, LIGHTGRAY);
-	
-	// Draw player choices
-	if (isChoice)
-	{
-		//The -50 allows for two 25 margins
-		int choiceHeight = (menuHeight-30) / options.size();
+	isLoaded = true;
+}
 
-		for (int i = 0; i < options.size(); i++)
-		{
-			const char* option = options[i].c_str();
+void Menu::DeloadMenu()
+{
+	isLoaded = false;
+}
 
-			//The 25 is the margin
-			int drawYPos = GetScreenHeight() - menuHeight + 30 + i * choiceHeight;
-
-			if (i == selected && !isBlink)
-			{
-				DrawRectangle(0, drawYPos-15, GetScreenWidth(), 45, WHITE);
-				DrawText(option, 20, drawYPos, fontSize, BLUE);
-			}
-			else {
-				DrawText(option, 20, drawYPos, fontSize, BLACK);
-			}	
-		}
-	}
-	// just send dialouge through
-	else
-	{
-		DrawText(dialouge.c_str(), 20, GetScreenHeight() - menuHeight + 25, fontSize, BLUE);
-	}
+bool Menu::isMenuLoaded()
+{
+	return isLoaded;
 }
