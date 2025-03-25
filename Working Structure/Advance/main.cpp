@@ -1,5 +1,4 @@
 ﻿#include "raylib.h"
-#include "Gui.h"
 #include "Game.h"
 #include <string>
 #include <vector>
