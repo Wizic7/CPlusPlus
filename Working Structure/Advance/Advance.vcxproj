@@ -133,6 +133,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\Menu\RenderScene.cpp" />
+    <ClCompile Include="..\..\src\Menu\TextDisplay.cpp" />
     <ClCompile Include="eventTime.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
@@ -141,6 +143,9 @@
     <ClCompile Include="RenderScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Menu\Menu.h" />
+    <ClInclude Include="..\..\src\Menu\RenderScene.h" />
+    <ClInclude Include="..\..\src\Menu\TextDisplay.h" />
     <ClInclude Include="eventTime.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Menu.h" />
