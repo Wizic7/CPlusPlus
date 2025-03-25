@@ -1,0 +1,25 @@
+﻿  Game.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(9,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+  main.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(9,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  Menu.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(9,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.cpp(13,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\Menu.cpp(64,6): warning C4551: function call missing argument list
+  Generating Code...
+  Advance.vcxproj -> C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\Advance\Advance\x64\Debug\Advance.exe
