@@ -33,12 +33,6 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\Menu\RenderScene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\Menu\TextDisplay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="eventTime.h">
@@ -56,13 +50,7 @@
     <ClInclude Include="TextDisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\Menu\Menu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\Menu\RenderScene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\Menu\TextDisplay.h">
+    <ClInclude Include="raylib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
