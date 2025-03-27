@@ -8,7 +8,7 @@ class RenderScene
 {
 private: 	
 	std::vector<std::string> _filepaths;
-	std::vector<Image> Images;
+	std::vector<Texture2D> _images;
 	//List of Currently Rendered Objects
 	bool isLoaded = false;
 

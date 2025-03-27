@@ -17,9 +17,9 @@ int main(void)
     //--------------------------------------------------------------------------------------
     
 
-    //SetConfigFlags(FLAG_FULLSCREEN_MODE);
-    //InitWindow(GetScreenWidth(), GetScreenHeight(), "Advance, Think Quick, Think Ahead");
-    InitWindow(1200, 900, "A test Window");
+    SetConfigFlags(FLAG_FULLSCREEN_MODE);
+    InitWindow(GetScreenWidth(), GetScreenHeight(), "Advance, Think Quick, Think Ahead");
+    //InitWindow(1200, 900, "A test Window");
 
 
     // TODO: Initialize all required variables and load all required data here!
@@ -57,7 +57,7 @@ int main(void)
 
     // De-Initialization
     //--------------------------------------------------------------------------------------
-
+    game.Unload();
     // TODO: Unload all loaded data (textures, fonts, audio) here!
 
     CloseWindow();        // Close window and OpenGL context

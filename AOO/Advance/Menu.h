@@ -6,14 +6,14 @@
 class Menu
 {
 private:
-	int buttonWidth = GetScreenWidth() * 0.35;
+	int buttonWidth = GetScreenWidth() * 0.30;
 	int buttonHeight = GetScreenHeight() * 0.15;
 	int fontSize = 36;
 	int hovered = -1;
 	int buttonXPos;
 	std::array<int,3> buttonYPos;
 	std::vector<std::string> buttonText = {"Settings", "Load Game", "New Game"};
-
+	std::vector<Texture2D> _textures;
 	bool isLoaded = false;
 
 

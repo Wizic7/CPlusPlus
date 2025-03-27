@@ -62,3 +62,11 @@ void Game::AdvanceDialogue()
 {
 
 }
+
+void Game::Unload()
+{
+	if (mainMenu.isMenuLoaded())
+	{
+		mainMenu.DeloadMenu();
+	}
+}

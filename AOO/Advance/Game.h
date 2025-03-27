@@ -12,6 +12,7 @@ private:
 public:
 	void Update();
 	void Draw();
+	void Unload();
 	int GetState();
 	void AdvanceDialogue();
 };

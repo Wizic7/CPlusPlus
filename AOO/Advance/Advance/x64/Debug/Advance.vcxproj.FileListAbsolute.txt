@@ -1,3 +1,6 @@
 C:\Users\Joseph\Documents\CSE310\CPlusPlus\Working Structure\Advance\x64\Debug\raylib.dll
 C:\Users\Joseph\Documents\CSE310\CPlusPlus\Working Structure\Advance\x64\Debug\glfw3.dll
 C:\Users\Joseph\Documents\CSE310\CPlusPlus\Working Structure\Advance\Advance\x64\Debug\Advance.vcxproj.Up2Date
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\x64\Debug\raylib.dll
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\x64\Debug\glfw3.dll
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Advance\x64\Debug\Advance.vcxproj.Up2Date
