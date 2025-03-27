@@ -1,6 +1,7 @@
 #pragma once
 #include "TextDisplay.h"
 #include "Menu.h"
+#include "RenderScene.h"
 class Game
 {
 private:
@@ -8,6 +9,7 @@ private:
 	int currentState = 0;
 	TextDisplay dialogueMenu;
 	Menu mainMenu;
+	RenderScene scene;
 
 public:
 	void Update();

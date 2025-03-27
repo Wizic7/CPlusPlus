@@ -19,10 +19,11 @@ void Game::Draw()
 		} break;
 		case BASE:
 		{
-			
+			scene.Draw();
 		} break;
 		case DIALOUGE:
 		{
+			scene.Draw();
 			dialogueMenu.Draw();
 		} break;
 		default: break;
@@ -68,5 +69,10 @@ void Game::Unload()
 	if (mainMenu.isMenuLoaded())
 	{
 		mainMenu.DeloadMenu();
+	}
+
+	if (scene.isSceneLoaded())
+	{
+		scene.unloadScene();
 	}
 }

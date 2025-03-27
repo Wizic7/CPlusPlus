@@ -7,15 +7,13 @@
 class RenderScene
 {
 private: 	
-	std::vector<std::string> _filepaths;
-	std::vector<Vector2> _imageLoaction;
-	std::vector<Texture2D> _images;
+	std::vector<Vector2> _textureLocation;
+	std::vector<Texture2D> _textures;
 	//List of Currently Rendered Objects
 	bool isLoaded = false;
 
 public:
-	void setImageFiles(std::vector<std::string> filepaths);
-	void loadImage();
+	void loadImage(char* path, int height, int width, Vector2 drawLocation);
 	void Draw();
 	void unloadScene();
 	bool isSceneLoaded();
