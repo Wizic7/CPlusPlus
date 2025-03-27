@@ -8,7 +8,7 @@ void RenderScene::Draw()
 	}
 }
 
-void RenderScene::loadScene()
+void RenderScene::loadImage()
 {
 
 	isLoaded = true;
@@ -22,7 +22,7 @@ void RenderScene::unloadScene()
 
 }
 
-bool RenderScene::isLoaded()
+bool RenderScene::isSceneLoaded()
 {
 	return isSceneLoaded;
 }
