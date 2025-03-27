@@ -39,6 +39,6 @@ void RenderScene::unloadScene()
 
 bool RenderScene::isSceneLoaded()
 {
-	return isSceneLoaded;
+	return isLoaded;
 }
 

@@ -5,6 +5,8 @@ C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\A
 C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
+  RenderScene.cpp
+  Generating Code...
   Advance.vcxproj -> C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\x64\Debug\Advance.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
