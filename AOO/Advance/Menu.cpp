@@ -66,7 +66,7 @@ void Menu::Update()
 		hovered = -1;
 	}
 
-	if (IsMouseButtonReleased)
+	if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT))
 	{
 		if (hovered >= 0)
 		{

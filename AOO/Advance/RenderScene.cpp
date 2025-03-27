@@ -10,12 +10,20 @@ void RenderScene::Draw()
 
 void RenderScene::loadScene()
 {
+
 	isLoaded = true;
 
 }
 
 void RenderScene::unloadScene()
 {
+
 	isLoaded = false;
 
 }
+
+bool RenderScene::isLoaded()
+{
+	return isSceneLoaded;
+}
+
