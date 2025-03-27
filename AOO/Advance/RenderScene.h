@@ -15,7 +15,7 @@ private:
 
 public:
 	void setImageFiles(std::vector<std::string> filepaths);
-	void loadScene();
+	void loadImage();
 	void Draw();
 	void unloadScene();
 	bool isSceneLoaded();
