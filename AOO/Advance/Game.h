@@ -2,6 +2,7 @@
 #include "TextDisplay.h"
 #include "Menu.h"
 #include "RenderScene.h"
+#include "SceneHandler.h"
 class Game
 {
 private:
@@ -16,6 +17,6 @@ public:
 	void Draw();
 	void Unload();
 	int GetState();
-	void AdvanceDialogue();
+	
 };
 
