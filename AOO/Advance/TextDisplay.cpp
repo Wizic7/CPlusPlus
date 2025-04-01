@@ -6,6 +6,7 @@
 #include <vector>
 
 
+
 void TextDisplay::setIsChoice(bool state)
 {
 	isChoice = state;
@@ -16,6 +17,12 @@ void TextDisplay::setSelected(int option)
 	selected = option;
 }
 
+int TextDisplay::getSelected()
+{
+	return selected;
+}
+
+//Sets the choices for the player
 void TextDisplay::setOptions(std::vector<std::string> nextOptions)
 {
 	options = nextOptions;
@@ -33,15 +40,18 @@ void TextDisplay::Update()
 		isBlink = !isBlink;
 	}
 
-	if (IsKeyPressed(KEY_UP) && selected != 0)
+	if (isChoice)
 	{
-		isBlink = false;
-		selected--;
-	}
-	if (IsKeyPressed(KEY_DOWN) && selected != options.size() - 1)
-	{
-		isBlink = false;
-		selected++;
+		if (IsKeyPressed(KEY_UP) && selected != 0)
+		{
+			isBlink = false;
+			selected--;
+		}
+		if (IsKeyPressed(KEY_DOWN) && selected != options.size() - 1)
+		{
+			isBlink = false;
+			selected++;
+		}
 	}
 }
 

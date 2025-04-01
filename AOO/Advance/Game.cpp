@@ -59,11 +59,6 @@ void Game::Update()
 	}
 }
 
-void Game::AdvanceDialogue()
-{
-
-}
-
 void Game::Unload()
 {
 	if (mainMenu.isMenuLoaded())

@@ -73,7 +73,7 @@ void Menu::Update()
 			switch (hovered) {
 				case 0:
 				{
-				//Settings
+					//Settings
 					break;
 				}
 				case 1:

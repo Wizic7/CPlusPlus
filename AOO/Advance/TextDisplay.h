@@ -24,6 +24,7 @@ public:
 	void setDialouge(const std::string nextDialouge);
 	void setSelected(int selected);
 	void setOptions(const std::vector<std::string> nextOptions);
+	int getSelected();
 	void Update();
 	void Draw();
 };
