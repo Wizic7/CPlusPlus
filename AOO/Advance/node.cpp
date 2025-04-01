@@ -3,7 +3,7 @@
 #include <string>
 #include "raylib.h"
 using namespace std;
-
+class node;
 // Define a structure to hold scene change information
 struct SceneChangeInfo {
     vector<string> filepaths;
@@ -12,7 +12,20 @@ struct SceneChangeInfo {
     vector<Vector2> positions;
 };
 
-int node(string scene) {
+SceneChangeInfo setImageInfo(string scene)
+{   
+    SceneChangeInfo sceneChangeInfo;
+    
+    sceneChangeInfo.filepaths = { NULL};
+    sceneChangeInfo.widths = { NULL };
+    sceneChangeInfo.heights = { NULL };
+    sceneChangeInfo.positions = { {NULL, NULL} };
+
+    return sceneChangeInfo;
+    
+}
+
+SceneChangeInfo chooseNode(string scene) {
     
     SceneChangeInfo sceneChangeInfo;
 
@@ -33,6 +46,13 @@ int node(string scene) {
         sceneChangeInfo.widths = { GetScreenWidth() };
         sceneChangeInfo.heights = { GetScreenHeight() };
         sceneChangeInfo.positions = { {0, 0} };
+    }
+    else if (scene == "meet-cook-outside") {
+        sceneChangeInfo.filepaths = { "..\\images\\mansion.jpeg", "..\\images\\Cook_transparent.png" };
+        sceneChangeInfo.widths = { GetScreenWidth(), GetScreenWidth() };
+        sceneChangeInfo.heights = { GetScreenHeight(), GetScreenHeight() };
+        sceneChangeInfo.positions = { {0, 0}, {0, 0} };
+
     }
     else if (scene == "meet-cook") {
         sceneChangeInfo.filepaths = { "..\\images\\mansion.jpeg", "..\\images\\Cook_transparent.png" };
@@ -71,5 +91,5 @@ int node(string scene) {
         sceneChangeInfo.positions = { {0, 0}, {0, 0} };
     }
 
-    return 0; 
+    return sceneChangeInfo; 
 }
