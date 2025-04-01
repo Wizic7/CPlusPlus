@@ -13,10 +13,8 @@ A simple text-based murder mystery game in C++
 * Xcode (MacOS)
 * Raylib C++ Library
 ## Software Features
-
-
-* [ ] ASCCI and full picture art
-* [ ] Keyboard control with discussion of controller support 
+* [X] Full picture art
+* [X] Mouse control
 * [ ] Text-based Control
 
 ## Team Communication
@@ -34,4 +32,13 @@ We have a Discord Server we communicated through
 |Submit Team Assignments                | Joseph Gaunt           |
 
 ## Reflections
+What went well
+* Running main menu, as well as building to about 80% completion
+* Troubleshooting skills
+* Writing the story and the scripts for characters
+
+What didn't go well
+* Working to completion: More R&D, better setup
+* Lack of documentation: Decide better deadlines and assignments to the whole team instead of generic timelines
+* Connecting to the external library: Using a different language that makes connecting to external libraries easier
 
