@@ -1,1 +1,47 @@
-﻿  Advance.vcxproj -> C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\x64\Debug\Advance.exe
+﻿  Game.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Menu.h(9,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game.cpp')
+  
+  SceneHandler.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'SceneHandler.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'SceneHandler.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'SceneHandler.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\SceneHandler.cpp(41,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Menu.h(9,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\Menu.h(10,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\nodeMap.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+  Generating Code...
+  Advance.vcxproj -> C:\Users\justc\OneDrive\Documents\BYU-Idaho\Winter 24-25\CSE-310\CPlusPlus\AOO\Advance\x64\Debug\Advance.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

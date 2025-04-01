@@ -13,7 +13,7 @@ private:
 	bool isLoaded = false;
 
 public:
-	void loadImage(char* path, int height, int width, Vector2 drawLocation);
+	void loadImage(const char* path, int height, int width, Vector2 drawLocation);
 	void Draw();
 	void unloadScene();
 	bool isSceneLoaded();

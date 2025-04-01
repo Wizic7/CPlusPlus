@@ -13,7 +13,7 @@ void RenderScene::Draw()
 	}
 }
 
-void RenderScene::loadImage(char* path, int height, int width, Vector2 drawLocation)
+void RenderScene::loadImage(const char* path, int height, int width, Vector2 drawLocation)
 {
 	Image img = LoadImage(path);
 	ImageResize(&img, width, height);

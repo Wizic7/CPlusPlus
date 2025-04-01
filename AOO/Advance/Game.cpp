@@ -24,7 +24,6 @@ void Game::Draw()
 		case DIALOUGE:
 		{
 			scene.Draw();
-			dialogueMenu.Draw();
 		} break;
 		default: break;
 	}
@@ -45,15 +44,11 @@ void Game::Update()
 		} break;
 		case BASE:
 		{
-
+			scene.Update();
 		} break;
 		case DIALOUGE:
 		{
-			if (IsKeyPressed(KEY_ENTER))
-			{
-				AdvanceDialogue();
-			}
-			dialogueMenu.Update();
+			scene.Update();
 		} break;
 		default: break;
 	}
@@ -66,8 +61,8 @@ void Game::Unload()
 		mainMenu.DeloadMenu();
 	}
 
-	if (scene.isSceneLoaded())
+	if (scene.isLoaded())
 	{
-		scene.unloadScene();
+		scene.Unload();
 	}
 }

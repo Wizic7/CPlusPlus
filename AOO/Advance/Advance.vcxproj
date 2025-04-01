@@ -137,6 +137,10 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="nodeBuilder.cpp" />
+    <ClCompile Include="nodeMap.cpp" />
+    <ClCompile Include="SceneHandler.cpp" />
     <ClCompile Include="TextDisplay.cpp" />
     <ClCompile Include="RenderScene.cpp" />
   </ItemGroup>
@@ -144,7 +148,11 @@
     <ClInclude Include="eventTime.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="nodeBuilder.h" />
+    <ClInclude Include="nodeMap.h" />
     <ClInclude Include="raylib.h" />
+    <ClInclude Include="SceneHandler.h" />
     <ClInclude Include="TextDisplay.h" />
     <ClInclude Include="RenderScene.h" />
   </ItemGroup>
